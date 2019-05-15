@@ -1,0 +1,25 @@
+{
+  "name": "cpserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "start": "node dist/app.js"
+  },
+  "author": "Uwe Chardon <uchardon@gmail.com> (chaba.de)",
+  "license": "MIT",
+  "dependencies": {
+    "enjoi": "^5.0.2",
+    "joi": "^14.3.1",
+    "joi-date-extensions": "^1.2.0",
+    "uuid": "^3.3.2",
+    "ws": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4"
+  }
+}
